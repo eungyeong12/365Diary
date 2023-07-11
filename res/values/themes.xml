@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.365Diary" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#b4c967</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#B4C967</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <!-- Status bar color. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:statusBarColor">#FFFCFC</item>
+        <item name="android:textColorHighlight">#DBEAA8</item>
+    </style>
+    <style name="progressbar_color">
+        <item name="colorAccent">#4CAF50</item>
+    </style>
+    <style name="Theme.365Diary" parent="Base.Theme.365Diary" />
+</resources>
